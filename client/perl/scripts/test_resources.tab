@@ -1,0 +1,2 @@
+name	internal_id	internal_url	resourcetype	collection_name	description	internal_create_date	gene_id	pubmed	term_identifier	
+PTPN22	26191	http://www.t1dbase.org/page/Overview/display/gene_id/26191	document	congenic	protein tyrosine phosphatase, non-receptor type 22 (lymphoid)	2011-04-18T15:00:00+00:00	26191,19260,295338	pubmed_id=20962850;citation=0,pubmed_id=20805278;citation=1	GO:0017124

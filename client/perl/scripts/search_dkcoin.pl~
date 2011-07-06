@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+#Script to get current sources from a dkcoin server
+
+use strict;
+use lib '../lib';
+use DKCOIN;
+
+my $server = 'staging.dkcoin.org';
+
+my $dkcoin = new DKCOIN(-server => $server);
+my $search = new DKCOIN::Search(-gene_id => [19260]);
+my $rs = $dkcoin->search($search);
+print "Found ".scalar(@$rs)." dkCOIN resources matching criteria\n";
+my $count = 1;
+foreach my $r(@$rs){
+	print join("\t", $count,$r->name,$r->resourcetype_name)."\n"; 
+	$count++;
+}

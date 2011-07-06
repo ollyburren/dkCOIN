@@ -1,0 +1,4 @@
+DKCOIN (http://wwww.dkcoin.org)
+the dkCOIN platform is a SOAP based service to facilitate the sharing of resources pertinent to the NIDDK mission.
+
+client - contains code in various languages for accessing dkCOIN platform.
